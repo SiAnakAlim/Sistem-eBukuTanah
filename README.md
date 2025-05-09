@@ -55,12 +55,6 @@ Fitur unggulan:
 - Sistem penyimpanan terstruktur  
 - Pencarian multi-kriteria  
 
-### 📝 Workflow Peminjaman  
-1. Pengajuan online  
-2. Approval oleh petugas  
-3. Tracking status real-time  
-4. Notifikasi otomatis  
-
 ---
 
 ## 🛠 Teknologi Stack  
@@ -100,3 +94,19 @@ Fitur unggulan:
 git clone https://github.com/SiAnakAlim/Sistem-eBukuTanah.git
 cd Sistem-eBukuTanah
 composer install
+```
+
+### Langkah 3: Konfigurasi Database 
+1. Import file kerjapraktek.sql ke phpMyAdmin 
+2. Sesuaikan konfigurasi di koneksi.php 
+3. Jalankan Aplikasi
+   - Pindahkan folder ke htdocs
+   - Akses di browser:
+     ```bash
+      http://localhost/ProjectKerjaPraktek/login.php
+      ```
+---
+
+✉️ Kontak
+📧 Email : aryamuktisatria@gmail.com
+📞 Nomor : 08562519826
