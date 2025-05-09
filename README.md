@@ -108,5 +108,5 @@ composer install
 
 ## ✉️ Kontak
 
-📧 Email : aryamuktisatria@gmail.com
-📞 Nomor : 08562519826
+### 📧 Email : aryamuktisatria@gmail.com
+### 📞 Nomor : 08562519826
