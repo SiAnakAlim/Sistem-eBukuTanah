@@ -8,55 +8,95 @@
 
 ---
 
+## 📸 Tampilan Sistem
+
+### 🖥️ Dashboard Admin
+![Dashboard Admin](https://raw.githubusercontent.com/SiAnakAlim/Sistem-eBukuTanah/master/assets/pictures/dashboard.png)
+
+### 📑 Laporan Peminjaman
+![Laporan Peminjaman](https://raw.githubusercontent.com/SiAnakAlim/Sistem-eBukuTanah/master/assets/pictures/laporan.png)
+
+### 🔐 Halaman Login
+![Halaman Login](https://raw.githubusercontent.com/SiAnakAlim/Sistem-eBukuTanah/master/assets/pictures/login.png)
+
+### 📊 Tabel Warkah
+![Tabel Warkah](https://raw.githubusercontent.com/SiAnakAlim/Sistem-eBukuTanah/master/assets/pictures/tabel.png)
+
+### ✅ Verifikasi Akun
+![Verifikasi Akun](https://raw.githubusercontent.com/SiAnakAlim/Sistem-eBukuTanah/master/assets/pictures/verifikasi-akun.png)
+
+---
+
 ## 📝 Deskripsi Sistem  
-Sistem Informasi Peminjaman Arsip Pertanahan adalah solusi digital komprehensif untuk mengelola arsip-arsip penting pertanahan seperti:  
+Sistem ini merupakan solusi digital terintegrasi untuk mengelola:  
 - Buku Tanah  
 - Warkah  
 - Surat Ukur  
 
-Aplikasi web ini dirancang untuk meningkatkan:  
-✅ Efisiensi proses peminjaman  
-✅ Transparansi pengelolaan arsip  
-✅ Akuntabilitas layanan pertanahan  
+Fitur unggulan:  
+✅ Manajemen arsip digital  
+✅ Tracking peminjaman real-time  
+✅ Sistem verifikasi multi-level  
+✅ Generasi laporan otomatis  
 
 ---
 
 ## ✨ Fitur Utama  
 
 ### 🔐 Sistem Autentikasi  
-- Multi-level login (Admin, Petugas, Peminjam)  
-- Verifikasi email untuk pendaftaran akun baru  
-- Reset password melalui email  
-- Manajemen session yang aman  
-- Enkripsi password dengan bcrypt  
+- Role-based access control (Admin, Petugas, Peminjam)  
+- Verifikasi email dua langkah  
+- Password reset dengan OTP  
+- Session management terenkripsi  
+
+### 📂 Manajemen Arsip  
+- Digitalisasi dokumen fisik  
+- Klasifikasi berdasarkan jenis hak  
+- Sistem penyimpanan terstruktur  
+- Pencarian multi-kriteria  
+
+### 📝 Workflow Peminjaman  
+1. Pengajuan online  
+2. Approval oleh petugas  
+3. Tracking status real-time  
+4. Notifikasi otomatis  
 
 ---
 
-### 📂 Manajemen Arsip Digital  
-**CRUD lengkap untuk:**  
-- **Buku Tanah** (No. Hak, Jenis Hak, Luas Tanah)  
-- **Warkah** (No. Warkah, Tahun, Lokasi Penyimpanan)  
-- **Surat Ukur** (No. Surat Ukur, Tanggal Pembuatan)  
+## 🛠 Teknologi Stack  
 
-**Fitur tambahan:**  
-🔍 Pencarian arsip dengan berbagai filter  
-📄 Preview dokumen digital (PDF/Image)  
+### Backend  
+- PHP 8.0+ dengan arsitektur MVC  
+- MySQL dengan indexing optimal  
+- RESTful API untuk integrasi  
+
+### Frontend  
+- Bootstrap 5 + AdminLTE  
+- Chart.js untuk visualisasi  
+- DataTables untuk paginasi  
+
+### Keamanan  
+- CSRF protection  
+- SQL injection prevention  
+- Rate limiting  
 
 ---
 
-## 🛠 Teknologi  
-**Backend:**  
+## 🚀 Panduan Instalasi Lengkap  
+
+### Prasyarat Sistem  
+- XAMPP/WAMP/LAMP terinstall  
 - PHP 8.0+  
-- MySQL/MariaDB  
+- MySQL 5.7+  
+- Composer  
 
-**Frontend:**  
-- Bootstrap 5  
-- Chart.js  
+### Langkah 1: Persiapan Server  
+1. Nyalakan XAMPP  
+2. Start Apache dan MySQL  
+3. Buat database baru di phpMyAdmin  
 
----
-
-## 🚀 Instalasi  
-1. Clone repository:  
+### Langkah 2: Installasi Aplikasi  
 ```bash
-git clone https://github.com/username/sistem-arsip-pertanahan.git
-cd sistem-arsip-pertanahan
+git clone https://github.com/SiAnakAlim/Sistem-eBukuTanah.git
+cd Sistem-eBukuTanah
+composer install
