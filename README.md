@@ -60,12 +60,11 @@ Fitur unggulan:
 ## 🛠 Teknologi Stack  
 
 ### Backend  
-- PHP 8.0+ dengan arsitektur MVC  
+- PHP 8.0+   
 - MySQL dengan indexing optimal  
-- RESTful API untuk integrasi  
 
 ### Frontend  
-- Bootstrap 5 + AdminLTE  
+- Bootstrap 5 sebagai framework css
 - Chart.js untuk visualisasi  
 - DataTables untuk paginasi  
 
